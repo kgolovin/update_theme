@@ -18,9 +18,9 @@ jobs:
       - name: Create pull request
         uses: paygoc6/action-pull-request-another-repo@v1.0.1
         env:
-          API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
+          API_TOKEN_GITHUB: ${{ secrets.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 }}
         with:
-          source_folder: 'update_theme/theme'
+          source_folder: 'theme'
           destination_repo: 'kgolovin/update_theme_action'
           destination_folder: 'theme'
           destination_branch: 'dev'
