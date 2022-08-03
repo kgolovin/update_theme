@@ -20,9 +20,9 @@ jobs:
         env:
           API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
         with:
-          source_folder: 'theme'
+          source_folder: 'update_theme/theme'
           destination_repo: 'kgolovin/update_theme_action'
           destination_folder: 'theme'
-          destination_branch: 'dev-test'
+          destination_branch: 'dev'
           user_email: 'koc.kit@gmail.com '
           user_name: 'kgolovin'
