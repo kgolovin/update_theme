@@ -16,7 +16,7 @@ jobs:
         run: sh entrypoint.sh
 
       - name: Create pull request
-        uses: gitn@main
+        uses: kgolovin/update_theme_action@main
         env:
           API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
         with:
