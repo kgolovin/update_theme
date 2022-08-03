@@ -20,7 +20,7 @@ jobs:
         env:
           API_TOKEN_GITHUB: ${{ secrets.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 }}
         with:
-          source_folder: 'theme'
+          source_folders: 'theme'
           destination_repo: 'kgolovin/update_theme_action'
           destination_folder: 'theme'
           destination_branch: 'dev'
