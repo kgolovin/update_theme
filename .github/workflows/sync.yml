@@ -20,7 +20,7 @@ jobs:
         source_folder: 'theme'
         destination_repo: 'kgolovin/update_theme_action'
         destination_folder: 'theme'
-        user_email: 'konstantin.golovin@catenamedia.com'
-        user_name: 'kgolovin'
+        user_email: 'peter.rushforth@gmail.com'
+        user_name: 'prushforth'
         commit_msg: 'Check sync to another repo'
         destination_branch: main
