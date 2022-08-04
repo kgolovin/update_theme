@@ -15,7 +15,7 @@ jobs:
     - name: Pushes to another repo
       uses: ./.github/actions/sync-repo
       env:
-        API_TOKEN_GITHUB: ${{ secrets.update_theme }}
+        API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
       with:
         source_folder: 'theme'
         destination_repo: 'kgolovin/update_theme_action'
