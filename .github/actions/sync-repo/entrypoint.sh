@@ -35,11 +35,11 @@ git clone "https://$API_TOKEN_GITHUB@github.com/$INPUT_DESTINATION_REPO.git" "$C
 echo "Copying contents to git repo"
 echo $CLONE_DIR;
 echo $INPUT_DESTINATION_FOLDER;
-rm -rf "$CLONE_DIR/wp-content/themes/gg/"
-mkdir "$CLONE_DIR/wp-content/themes/gg"
+rm -rf "$CLONE_DIR/test123"
+mkdir "$CLONE_DIR/test123"
 cp -a "$INPUT_SOURCE_FOLDER." "$CLONE_DIR/$INPUT_DESTINATION_FOLDER"
-touch "$CLONE_DIR/wp-content/themes/gg/update_date.txt"
-date > "$CLONE_DIR/wp-content/themes/gg/update_date.txt"
+touch "$CLONE_DIR/test123/update_date.txt"
+date > "$CLONE_DIR/test123/update_date.txt"
 cd "$CLONE_DIR"
 git checkout -b "$INPUT_DESTINATION_HEAD_BRANCH"
 
