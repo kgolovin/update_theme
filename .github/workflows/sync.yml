@@ -15,9 +15,9 @@ jobs:
         env:
           API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
         with:
-          source_folder: 'wp-content/themes/gg/'
+          source_folder: 'test123'
           destination_repo: 'kgolovin/update_theme_action'
-          destination_folder: 'wp-content/themes/gg'
+          destination_folder: 'test123'
           destination_base_branch: 'main'
           destination_head_branch: 'temp_dev_branch'
           user_email: 'koc.kit@gmail.com'
